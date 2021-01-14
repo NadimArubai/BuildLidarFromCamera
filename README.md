@@ -5,20 +5,25 @@ Building a real-time 2D Lidar by using a camera as an input, and by processing w
 
 # Reqiurment:
 Python3.8 with:
+
 Tensorflow 3.3
+
 Keras 2.4.3
+
 Matplotlib 3.1.2
+
 opencv-python 4.5.1.48
+
 python-gflags 3.1.2
+
 scipy 1.6.0
+
 scikit-learn 0.24.0
 
 It should work if the versions is less or more than those, but it's tested with those versions.
 
 # Dataset:
-download Kitti from
-
-http://www.cvlibs.net/datasets/kitti/
+download Kitti from http://www.cvlibs.net/datasets/kitti/
 
 It needs the raw dataset and the annotated depth maps dataset.
 
