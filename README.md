@@ -18,10 +18,16 @@ It should work if the versions is less or more than those, but it's tested with 
 # Dataset:
 download Kitti from
 https://www.hiast.edu.sy/sites/default/files/MasterPHD/5e6a1b73c2e7a.pdf
+
 It needs the raw dataset and the annotated depth maps dataset.
+
 Also the whole dataset is used {City, Person, Residintal, Road, Campus}.
+
 After downloading the whole dataset, put it in one folder and use the script
+```
 python gen_triain_valid.py RAW_DATASET_FOLDER DEPTH_LABELS_FOLDER
+```
+
 to generate 2 folder: training and validation which contain the proper examples for training images and there depths labels.
 
 # Training:
@@ -37,6 +43,7 @@ python evaluate.py
 
 # Testing
 For testing on a small partition of the data set:
+
 put any group of evaluation (or training) inside a Testing folder and run:
 ```
 python test1.py
@@ -56,9 +63,22 @@ python mestime.py
 Here is the Master doc
 https://www.hiast.edu.sy/sites/default/files/MasterPHD/5e6a1b73c2e7a.pdf
 
+and here is the paper:
+'to be added'
+
 # TODO
-Cleaning the code from rubbish.
-Adding proper commits.
-Uploading.
+- [ ] Cleaning the code from rubbish.
+
+--- [ ] generate  [ ] test [ ] train.
+
+- [ ] Adding proper commits.
+
+--- [ ] generate  [ ] test [ ] train.
+
+- [ ] Uploading
+
+--- [ ] generate  [ ] test [ ] train.
+
+
 
 
